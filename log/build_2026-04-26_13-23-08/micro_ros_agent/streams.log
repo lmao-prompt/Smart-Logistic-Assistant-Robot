@@ -1,0 +1,32 @@
+[0.045s] Invoking command in '/home/prhayogo/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/prhayogo/ros2_ws/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/prhayogo/ros2_ws/install/micro_ros_agent
+[0.191s] -- Configuring done (0.1s)
+[0.201s] -- Generating done (0.0s)
+[0.203s] [33mCMake Warning:
+[0.203s]   Manually-specified variables were not used by the project:
+[0.203s] 
+[0.203s]     AMENT_CMAKE_SYMLINK_INSTALL
+[0.203s] 
+[0.203s] [0m
+[0.205s] -- Build files have been written to: /home/prhayogo/ros2_ws/build/micro_ros_agent
+[0.212s] Invoked command in '/home/prhayogo/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/prhayogo/ros2_ws/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/prhayogo/ros2_ws/install/micro_ros_agent
+[0.214s] Invoking command in '/home/prhayogo/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prhayogo/ros2_ws/build/micro_ros_agent -- -j16 -l16
+[0.366s] [  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[0.444s] [ 12%] [34m[1mNo patch step for 'xrceagent'[0m
+[0.522s] [ 18%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[0.552s] loading initial cache file /home/prhayogo/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[0.566s] -- Setting build type to 'Release' as none was specified.
+[0.608s] [31mCMake Error at CMakeLists.txt:153 (find_package):
+[0.608s]   Could not find a configuration file for package "fastcdr" that is
+[0.608s]   compatible with requested version "1".
+[0.609s] 
+[0.609s]   The following configuration files were considered but not accepted:
+[0.609s] 
+[0.610s]     /opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config.cmake, version: 2.2.7
+[0.610s] 
+[0.610s] 
+[0.610s] [0m
+[0.611s] -- Configuring incomplete, errors occurred!
+[0.613s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:93: agent/src/xrceagent-stamp/xrceagent-configure] Error 1
+[0.613s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[0.614s] gmake: *** [Makefile:91: all] Error 2
+[0.619s] Invoked command in '/home/prhayogo/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prhayogo/ros2_ws/build/micro_ros_agent -- -j16 -l16

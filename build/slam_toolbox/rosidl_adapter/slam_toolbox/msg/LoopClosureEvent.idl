@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from slam_toolbox/msg/LoopClosureEvent.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module slam_toolbox {
+  module msg {
+    struct LoopClosureEvent {
+      builtin_interfaces::msg::Time stamp;
+    };
+  };
+};

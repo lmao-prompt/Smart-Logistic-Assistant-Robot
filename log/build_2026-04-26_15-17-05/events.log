@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000208] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.000231] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000252] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.001327] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.018514] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.020698] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[0.021724] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prhayogo/ros2_ws/build/slam_toolbox', '--', '-j16', '-l16'], 'cwd': '/home/prhayogo/ros2_ws/build/slam_toolbox', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'OFFLINE_ENV': '/opt/offline', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'prhayogo', 'LC_TIME': 'id_ID.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/offline/lib:', 'HOME': '/home/prhayogo', 'OLDPWD': '/home/prhayogo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '2727', 'SYSTEMD_EXEC_PID': '3276', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4170', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'prhayogo', 'JOURNAL_STREAM': '8:11157', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'prhayogo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/prhayogo-ASUS-TUF-Gaming-A15-FA506NFR-FA506NFR:@/tmp/.ICE-unix/3115,unix/prhayogo-ASUS-TUF-Gaming-A15-FA506NFR-FA506NFR:/tmp/.ICE-unix/3115', 'INVOCATION_ID': '617b354b154b4b9bb70199815d38465d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f831115b-0621-4f07-b10d-1724e4de4465', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/prhayogo/ros2_ws/build/slam_toolbox', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099686] (-) TimerEvent: {}
+[0.200091] (-) TimerEvent: {}
+[0.226769] (slam_toolbox) StdoutLine: {'line': b'[  0%] Built target slam_toolbox__rosidl_generator_type_description\n'}
+[0.227630] (slam_toolbox) StdoutLine: {'line': b'[  0%] Built target slam_toolbox__rs\n'}
+[0.259916] (slam_toolbox) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_slam_toolbox\n'}
+[0.268521] (slam_toolbox) StdoutLine: {'line': b'[  1%] Built target slam_toolbox__cpp\n'}
+[0.300180] (-) TimerEvent: {}
+[0.315050] (slam_toolbox) StdoutLine: {'line': b'[ 22%] Built target slam_toolbox__rosidl_generator_c\n'}
+[0.334476] (slam_toolbox) StdoutLine: {'line': b'[ 24%] Built target kartoSlamToolbox\n'}
+[0.372837] (slam_toolbox) StdoutLine: {'line': b'[ 37%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[0.373105] (slam_toolbox) StdoutLine: {'line': b'[ 39%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[0.384595] (slam_toolbox) StdoutLine: {'line': b'[ 46%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[0.389352] (slam_toolbox) StdoutLine: {'line': b'[ 54%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[0.392093] (slam_toolbox) StdoutLine: {'line': b'[ 62%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[0.392769] (slam_toolbox) StdoutLine: {'line': b'[ 70%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[0.400285] (-) TimerEvent: {}
+[0.425886] (slam_toolbox) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o\x1b[0m\n'}
+[0.426412] (slam_toolbox) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o\x1b[0m\n'}
+[0.427535] (slam_toolbox) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o\x1b[0m\n'}
+[0.429712] (slam_toolbox) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o\x1b[0m\n'}
+[0.434680] (slam_toolbox) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o\x1b[0m\n'}
+[0.435223] (slam_toolbox) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o\x1b[0m\n'}
+[0.435569] (slam_toolbox) StdoutLine: {'line': b'[ 74%] Built target slam_toolbox\n'}
+[0.450160] (slam_toolbox) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/slam_toolbox_rviz_plugin.cpp.o\x1b[0m\n'}
+[0.479827] (slam_toolbox) StdoutLine: {'line': b'[ 75%] Built target slam_toolbox__py\n'}
+[0.500393] (-) TimerEvent: {}
+[0.551141] (slam_toolbox) StdoutLine: {'line': b'[ 82%] Built target slam_toolbox__rosidl_generator_py\n'}
+[0.600495] (-) TimerEvent: {}
+[0.604090] (slam_toolbox) StdoutLine: {'line': b'[ 85%] Built target slam_toolbox_s__rosidl_typesupport_c\n'}
+[0.606375] (slam_toolbox) StdoutLine: {'line': b'[ 85%] Built target slam_toolbox_s__rosidl_typesupport_fastrtps_c\n'}
+[0.608241] (slam_toolbox) StdoutLine: {'line': b'[ 86%] Built target slam_toolbox_s__rosidl_typesupport_introspection_c\n'}
+[0.700600] (-) TimerEvent: {}
+[0.726245] (slam_toolbox) StdoutLine: {'line': b'running egg_info\n'}
+[0.761384] (slam_toolbox) StdoutLine: {'line': b'writing slam_toolbox.egg-info/PKG-INFO\n'}
+[0.761721] (slam_toolbox) StdoutLine: {'line': b'writing dependency_links to slam_toolbox.egg-info/dependency_links.txt\n'}
+[0.762012] (slam_toolbox) StdoutLine: {'line': b'writing top-level names to slam_toolbox.egg-info/top_level.txt\n'}
+[0.800709] (-) TimerEvent: {}
+[0.863525] (slam_toolbox) StdoutLine: {'line': b"reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[0.864931] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[0.900823] (-) TimerEvent: {}
+[0.913050] (slam_toolbox) StdoutLine: {'line': b'[ 86%] Built target ament_cmake_python_build_slam_toolbox_egg\n'}
+[1.000942] (-) TimerEvent: {}
+[1.101281] (-) TimerEvent: {}
+[1.201636] (-) TimerEvent: {}
+[1.301983] (-) TimerEvent: {}
+[1.402341] (-) TimerEvent: {}
+[1.502715] (-) TimerEvent: {}
+[1.603079] (-) TimerEvent: {}
+[1.703462] (-) TimerEvent: {}
+[1.803868] (-) TimerEvent: {}
+[1.904316] (-) TimerEvent: {}
+[2.004730] (-) TimerEvent: {}
+[2.105144] (-) TimerEvent: {}
+[2.205630] (-) TimerEvent: {}
+[2.306075] (-) TimerEvent: {}
+[2.406463] (-) TimerEvent: {}
+[2.506883] (-) TimerEvent: {}
+[2.607348] (-) TimerEvent: {}
+[2.707718] (-) TimerEvent: {}
+[2.808076] (-) TimerEvent: {}
+[2.908448] (-) TimerEvent: {}
+[3.008824] (-) TimerEvent: {}
+[3.109226] (-) TimerEvent: {}
+[3.209701] (-) TimerEvent: {}
+[3.310088] (-) TimerEvent: {}
+[3.410508] (-) TimerEvent: {}
+[3.510908] (-) TimerEvent: {}
+[3.611290] (-) TimerEvent: {}
+[3.711714] (-) TimerEvent: {}
+[3.812118] (-) TimerEvent: {}
+[3.912525] (-) TimerEvent: {}
+[4.012905] (-) TimerEvent: {}
+[4.113290] (-) TimerEvent: {}
+[4.213717] (-) TimerEvent: {}
+[4.314153] (-) TimerEvent: {}
+[4.414570] (-) TimerEvent: {}
+[4.515024] (-) TimerEvent: {}
+[4.615445] (-) TimerEvent: {}
+[4.715835] (-) TimerEvent: {}
+[4.816320] (-) TimerEvent: {}
+[4.916879] (-) TimerEvent: {}
+[5.017299] (-) TimerEvent: {}
+[5.117761] (-) TimerEvent: {}
+[5.218134] (-) TimerEvent: {}
+[5.318496] (-) TimerEvent: {}
+[5.418901] (-) TimerEvent: {}
+[5.519262] (-) TimerEvent: {}
+[5.619690] (-) TimerEvent: {}
+[5.720056] (-) TimerEvent: {}
+[5.820387] (-) TimerEvent: {}
+[5.920733] (-) TimerEvent: {}
+[6.021097] (-) TimerEvent: {}
+[6.121511] (-) TimerEvent: {}
+[6.221927] (-) TimerEvent: {}
+[6.322354] (-) TimerEvent: {}
+[6.422779] (-) TimerEvent: {}
+[6.523217] (-) TimerEvent: {}
+[6.623640] (-) TimerEvent: {}
+[6.724064] (-) TimerEvent: {}
+[6.824507] (-) TimerEvent: {}
+[6.924954] (-) TimerEvent: {}
+[7.025484] (-) TimerEvent: {}
+[7.125893] (-) TimerEvent: {}
+[7.226363] (-) TimerEvent: {}
+[7.326796] (-) TimerEvent: {}
+[7.427198] (-) TimerEvent: {}
+[7.527642] (-) TimerEvent: {}
+[7.628081] (-) TimerEvent: {}
+[7.728516] (-) TimerEvent: {}
+[7.828926] (-) TimerEvent: {}
+[7.929342] (-) TimerEvent: {}
+[8.029810] (-) TimerEvent: {}
+[8.130205] (-) TimerEvent: {}
+[8.230606] (-) TimerEvent: {}
+[8.330978] (-) TimerEvent: {}
+[8.431385] (-) TimerEvent: {}
+[8.531760] (-) TimerEvent: {}
+[8.632121] (-) TimerEvent: {}
+[8.732524] (-) TimerEvent: {}
+[8.832894] (-) TimerEvent: {}
+[8.933239] (-) TimerEvent: {}
+[9.033600] (-) TimerEvent: {}
+[9.133981] (-) TimerEvent: {}
+[9.234361] (-) TimerEvent: {}
+[9.334758] (-) TimerEvent: {}
+[9.435128] (-) TimerEvent: {}
+[9.535497] (-) TimerEvent: {}
+[9.635860] (-) TimerEvent: {}
+[9.736224] (-) TimerEvent: {}
+[9.836621] (-) TimerEvent: {}
+[9.937004] (-) TimerEvent: {}
+[10.037387] (-) TimerEvent: {}
+[10.137784] (-) TimerEvent: {}
+[10.238149] (-) TimerEvent: {}
+[10.338517] (-) TimerEvent: {}
+[10.438893] (-) TimerEvent: {}
+[10.539253] (-) TimerEvent: {}
+[10.639640] (-) TimerEvent: {}
+[10.740013] (-) TimerEvent: {}
+[10.840374] (-) TimerEvent: {}
+[10.940768] (-) TimerEvent: {}
+[11.041121] (-) TimerEvent: {}
+[11.141510] (-) TimerEvent: {}
+[11.241903] (-) TimerEvent: {}
+[11.342256] (-) TimerEvent: {}
+[11.442659] (-) TimerEvent: {}
+[11.543028] (-) TimerEvent: {}
+[11.643367] (-) TimerEvent: {}
+[11.743720] (-) TimerEvent: {}
+[11.844072] (-) TimerEvent: {}
+[11.944438] (-) TimerEvent: {}
+[12.044827] (-) TimerEvent: {}
+[12.145194] (-) TimerEvent: {}
+[12.245516] (-) TimerEvent: {}
+[12.345879] (-) TimerEvent: {}
+[12.446242] (-) TimerEvent: {}
+[12.546640] (-) TimerEvent: {}
+[12.647014] (-) TimerEvent: {}
+[12.747366] (-) TimerEvent: {}
+[12.847755] (-) TimerEvent: {}
+[12.948144] (-) TimerEvent: {}
+[13.048503] (-) TimerEvent: {}
+[13.148881] (-) TimerEvent: {}
+[13.249265] (-) TimerEvent: {}
+[13.349675] (-) TimerEvent: {}
+[13.450056] (-) TimerEvent: {}
+[13.550435] (-) TimerEvent: {}
+[13.650791] (-) TimerEvent: {}
+[13.751120] (-) TimerEvent: {}
+[13.851506] (-) TimerEvent: {}
+[13.960859] (-) TimerEvent: {}
+[14.074167] (-) TimerEvent: {}
+[14.180814] (-) TimerEvent: {}
+[14.284950] (-) TimerEvent: {}
+[14.393331] (-) TimerEvent: {}
+[14.506773] (-) TimerEvent: {}
+[14.616695] (-) TimerEvent: {}
+[14.734415] (-) TimerEvent: {}
+[14.851797] (-) TimerEvent: {}
+[14.965715] (-) TimerEvent: {}
+[15.088562] (-) TimerEvent: {}
+[15.225513] (-) TimerEvent: {}
+[15.380884] (-) TimerEvent: {}

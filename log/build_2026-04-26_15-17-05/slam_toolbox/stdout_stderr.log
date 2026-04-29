@@ -1,0 +1,32 @@
+[  0%] Built target slam_toolbox__rosidl_generator_type_description
+[  0%] Built target slam_toolbox__rs
+[  0%] Built target ament_cmake_python_copy_slam_toolbox
+[  1%] Built target slam_toolbox__cpp
+[ 22%] Built target slam_toolbox__rosidl_generator_c
+[ 24%] Built target kartoSlamToolbox
+[ 37%] Built target slam_toolbox__rosidl_typesupport_c
+[ 39%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[ 46%] Built target slam_toolbox__rosidl_typesupport_cpp
+[ 54%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[ 62%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[ 70%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[ 71%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o[0m
+[ 74%] Built target slam_toolbox
+[ 75%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/slam_toolbox_rviz_plugin.cpp.o[0m
+[ 75%] Built target slam_toolbox__py
+[ 82%] Built target slam_toolbox__rosidl_generator_py
+[ 85%] Built target slam_toolbox_s__rosidl_typesupport_c
+[ 85%] Built target slam_toolbox_s__rosidl_typesupport_fastrtps_c
+[ 86%] Built target slam_toolbox_s__rosidl_typesupport_introspection_c
+running egg_info
+writing slam_toolbox.egg-info/PKG-INFO
+writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+writing top-level names to slam_toolbox.egg-info/top_level.txt
+reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[ 86%] Built target ament_cmake_python_build_slam_toolbox_egg

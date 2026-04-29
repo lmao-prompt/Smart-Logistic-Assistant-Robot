@@ -1,0 +1,255 @@
+[0.025s] Invoking command in '/home/prhayogo/ros2_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/prhayogo/ros2_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/prhayogo/ros2_ws/install/slam_toolbox
+[0.073s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.280s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.292s] -- Found message_filters: 4.11.12 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.352s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.522s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.526s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.647s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.950s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.064s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.119s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[1.131s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.360s] -- Found visualization_msgs: 5.3.7 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.436s] -- Found pluginlib: 5.4.5 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.442s] -- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.451s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.454s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.457s] -- Found tf2_sensor_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[1.464s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.491s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.508s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.512s] -- Found lifecycle_msgs: 2.0.3 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[1.544s] -- Found bondcpp: 4.2.0 (/opt/ros/jazzy/share/bondcpp/cmake)
+[1.607s] -- Found rviz_common: 14.1.20 (/opt/ros/jazzy/share/rviz_common/cmake)
+[1.639s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.642s] -- Found OGRE
+[1.642s] --   static     : OFF
+[1.642s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.642s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.642s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.642s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.643s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[1.643s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.643s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[1.643s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.643s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.643s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.643s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.918s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.934s] -- Found rviz_default_plugins: 14.1.20 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)
+[3.257s] -- Found AMD headers in: /usr/include/suitesparse
+[3.257s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[3.258s] -- Found CAMD headers in: /usr/include/suitesparse
+[3.258s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[3.258s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[3.258s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[3.258s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[3.258s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[3.259s] -- Found COLAMD headers in: /usr/include/suitesparse
+[3.259s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[3.259s] -- Found SPQR headers in: /usr/include/suitesparse
+[3.259s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[3.259s] -- Found Config headers in: /usr/include/suitesparse
+[3.259s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[3.261s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[3.261s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[3.311s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[3.318s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[3.330s] -- Found required Ceres dependency: glog
+[3.331s] -- Found required Ceres dependency: gflags
+[3.332s] -- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[4.269s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.656s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.257s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.611s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.699s] -- Configuring done (6.6s)
+[6.883s] [33mCMake Warning at CMakeLists.txt:122 (add_library):
+[6.884s]   Cannot generate a safe runtime search path for target SlamToolboxPlugin
+[6.884s]   because files in some directories may conflict with libraries in implicit
+[6.884s]   directories:
+[6.884s] 
+[6.884s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.884s]       /home/prhayogo/miniconda3/lib
+[6.884s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.885s]       /home/prhayogo/miniconda3/lib
+[6.885s] 
+[6.885s]   Some of these libraries may not be found correctly.
+[6.885s] 
+[6.885s] [0m
+[6.907s] [33mCMake Warning at CMakeLists.txt:140 (add_library):
+[6.908s]   Cannot generate a safe runtime search path for target ceres_solver_plugin
+[6.908s]   because files in some directories may conflict with libraries in implicit
+[6.908s]   directories:
+[6.908s] 
+[6.908s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.908s]       /home/prhayogo/miniconda3/lib
+[6.909s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.909s]       /home/prhayogo/miniconda3/lib
+[6.909s] 
+[6.909s]   Some of these libraries may not be found correctly.
+[6.909s] 
+[6.909s] [0m
+[6.931s] [33mCMake Warning at CMakeLists.txt:151 (add_library):
+[6.931s]   Cannot generate a safe runtime search path for target toolbox_common
+[6.931s]   because files in some directories may conflict with libraries in implicit
+[6.932s]   directories:
+[6.932s] 
+[6.932s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.932s]       /home/prhayogo/miniconda3/lib
+[6.932s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.932s]       /home/prhayogo/miniconda3/lib
+[6.932s] 
+[6.933s]   Some of these libraries may not be found correctly.
+[6.933s] 
+[6.933s] [0m
+[6.955s] [33mCMake Warning at CMakeLists.txt:160 (add_library):
+[6.955s]   Cannot generate a safe runtime search path for target async_slam_toolbox
+[6.955s]   because files in some directories may conflict with libraries in implicit
+[6.956s]   directories:
+[6.956s] 
+[6.956s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.956s]       /home/prhayogo/miniconda3/lib
+[6.956s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.956s]       /home/prhayogo/miniconda3/lib
+[6.956s] 
+[6.956s]   Some of these libraries may not be found correctly.
+[6.957s] 
+[6.957s] [0m
+[6.978s] [33mCMake Warning at CMakeLists.txt:162 (add_executable):
+[6.978s]   Cannot generate a safe runtime search path for target
+[6.979s]   async_slam_toolbox_node because files in some directories may conflict with
+[6.979s]   libraries in implicit directories:
+[6.979s] 
+[6.979s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.979s]       /home/prhayogo/miniconda3/lib
+[6.979s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.979s]       /home/prhayogo/miniconda3/lib
+[6.980s] 
+[6.980s]   Some of these libraries may not be found correctly.
+[6.980s] 
+[6.980s] [0m
+[6.999s] [33mCMake Warning at CMakeLists.txt:165 (add_library):
+[6.999s]   Cannot generate a safe runtime search path for target sync_slam_toolbox
+[6.999s]   because files in some directories may conflict with libraries in implicit
+[7.000s]   directories:
+[7.000s] 
+[7.000s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.000s]       /home/prhayogo/miniconda3/lib
+[7.000s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.000s]       /home/prhayogo/miniconda3/lib
+[7.001s] 
+[7.001s]   Some of these libraries may not be found correctly.
+[7.001s] 
+[7.001s] [0m
+[7.019s] [33mCMake Warning at CMakeLists.txt:167 (add_executable):
+[7.020s]   Cannot generate a safe runtime search path for target
+[7.020s]   sync_slam_toolbox_node because files in some directories may conflict with
+[7.020s]   libraries in implicit directories:
+[7.020s] 
+[7.020s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.020s]       /home/prhayogo/miniconda3/lib
+[7.020s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.021s]       /home/prhayogo/miniconda3/lib
+[7.021s] 
+[7.021s]   Some of these libraries may not be found correctly.
+[7.021s] 
+[7.021s] [0m
+[7.041s] [33mCMake Warning at CMakeLists.txt:170 (add_library):
+[7.041s]   Cannot generate a safe runtime search path for target
+[7.042s]   localization_slam_toolbox because files in some directories may conflict
+[7.042s]   with libraries in implicit directories:
+[7.042s] 
+[7.042s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.042s]       /home/prhayogo/miniconda3/lib
+[7.042s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.042s]       /home/prhayogo/miniconda3/lib
+[7.043s] 
+[7.043s]   Some of these libraries may not be found correctly.
+[7.043s] 
+[7.043s] [0m
+[7.061s] [33mCMake Warning at CMakeLists.txt:172 (add_executable):
+[7.061s]   Cannot generate a safe runtime search path for target
+[7.062s]   localization_slam_toolbox_node because files in some directories may
+[7.062s]   conflict with libraries in implicit directories:
+[7.062s] 
+[7.062s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.062s]       /home/prhayogo/miniconda3/lib
+[7.062s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.062s]       /home/prhayogo/miniconda3/lib
+[7.063s] 
+[7.063s]   Some of these libraries may not be found correctly.
+[7.063s] 
+[7.063s] [0m
+[7.086s] [33mCMake Warning at CMakeLists.txt:175 (add_library):
+[7.086s]   Cannot generate a safe runtime search path for target lifelong_slam_toolbox
+[7.086s]   because files in some directories may conflict with libraries in implicit
+[7.087s]   directories:
+[7.087s] 
+[7.087s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.087s]       /home/prhayogo/miniconda3/lib
+[7.087s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.087s]       /home/prhayogo/miniconda3/lib
+[7.087s] 
+[7.088s]   Some of these libraries may not be found correctly.
+[7.088s] 
+[7.088s] [0m
+[7.106s] [33mCMake Warning at CMakeLists.txt:177 (add_executable):
+[7.107s]   Cannot generate a safe runtime search path for target
+[7.107s]   lifelong_slam_toolbox_node because files in some directories may conflict
+[7.107s]   with libraries in implicit directories:
+[7.107s] 
+[7.107s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.107s]       /home/prhayogo/miniconda3/lib
+[7.108s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.108s]       /home/prhayogo/miniconda3/lib
+[7.108s] 
+[7.108s]   Some of these libraries may not be found correctly.
+[7.108s] 
+[7.108s] [0m
+[7.126s] [33mCMake Warning at CMakeLists.txt:180 (add_library):
+[7.126s]   Cannot generate a safe runtime search path for target
+[7.126s]   map_and_localization_slam_toolbox because files in some directories may
+[7.126s]   conflict with libraries in implicit directories:
+[7.126s] 
+[7.127s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.127s]       /home/prhayogo/miniconda3/lib
+[7.127s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.127s]       /home/prhayogo/miniconda3/lib
+[7.127s] 
+[7.127s]   Some of these libraries may not be found correctly.
+[7.127s] 
+[7.128s] [0m
+[7.145s] [33mCMake Warning at CMakeLists.txt:182 (add_executable):
+[7.145s]   Cannot generate a safe runtime search path for target
+[7.145s]   map_and_localization_slam_toolbox_node because files in some directories
+[7.145s]   may conflict with libraries in implicit directories:
+[7.145s] 
+[7.146s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.146s]       /home/prhayogo/miniconda3/lib
+[7.146s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.146s]       /home/prhayogo/miniconda3/lib
+[7.146s] 
+[7.146s]   Some of these libraries may not be found correctly.
+[7.146s] 
+[7.147s] [0m
+[7.164s] [33mCMake Warning at CMakeLists.txt:186 (add_executable):
+[7.165s]   Cannot generate a safe runtime search path for target merge_maps_kinematic
+[7.165s]   because files in some directories may conflict with libraries in implicit
+[7.165s]   directories:
+[7.165s] 
+[7.165s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.165s]       /home/prhayogo/miniconda3/lib
+[7.166s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[7.166s]       /home/prhayogo/miniconda3/lib
+[7.166s] 
+[7.166s]   Some of these libraries may not be found correctly.
+[7.166s] 
+[7.166s] [0m
+[7.198s] -- Generating done (0.4s)
+[7.314s] -- Build files have been written to: /home/prhayogo/ros2_ws/build/slam_toolbox

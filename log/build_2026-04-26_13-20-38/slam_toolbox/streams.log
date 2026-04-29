@@ -1,0 +1,67 @@
+[0.030s] Invoking command in '/home/prhayogo/ros2_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prhayogo/ros2_ws/build/slam_toolbox -- -j16 -l16
+[0.257s] [  1%] Built target slam_toolbox__rosidl_generator_type_description
+[0.264s] [  1%] Built target slam_toolbox__rs
+[0.309s] [  1%] Built target ament_cmake_python_copy_slam_toolbox
+[0.329s] [  1%] Built target slam_toolbox__cpp
+[0.377s] [  3%] Built target kartoSlamToolbox
+[0.395s] [ 26%] Built target slam_toolbox__rosidl_generator_c
+[0.477s] [ 34%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[0.495s] [ 42%] Built target slam_toolbox__rosidl_typesupport_c
+[0.533s] [ 57%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[0.533s] [ 58%] Built target slam_toolbox__rosidl_typesupport_cpp
+[0.541s] [ 66%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[0.547s] [ 74%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[0.609s] [ 74%] Built target slam_toolbox
+[0.662s] [ 74%] Built target slam_toolbox__py
+[0.671s] [ 75%] Built target SlamToolboxPlugin
+[0.678s] [ 76%] Built target ceres_solver_plugin
+[0.780s] [ 83%] Built target slam_toolbox__rosidl_generator_py
+[0.821s] [ 83%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o[0m
+[0.848s] [ 84%] Built target slam_toolbox_s__rosidl_typesupport_introspection_c
+[0.848s] [ 85%] Built target slam_toolbox_s__rosidl_typesupport_fastrtps_c
+[0.852s] [ 86%] Built target slam_toolbox_s__rosidl_typesupport_c
+[0.877s] running egg_info
+[0.931s] writing slam_toolbox.egg-info/PKG-INFO
+[0.931s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[0.932s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[1.100s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.102s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[1.170s] [ 86%] Built target ament_cmake_python_build_slam_toolbox_egg
+[13.465s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[13.465s]                  from [01m[K/home/prhayogo/ros2_ws/src/slam_toolbox/src/slam_toolbox_common.cpp:19[m[K:
+[13.465s] /usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = message_filters::Subscriber<sensor_msgs::msg::LaserScan_<allocator<void> > >; _Args = {rclcpp_lifecycle::LifecycleNode*, __cxx11::basic_string<char, char_traits<char>, allocator<char> >&, rclcpp::SensorDataQoS}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<message_filters::Subscriber<sensor_msgs::msg::LaserScan_<allocator<void> > > >][m[K[m[K’:
+[13.465s] [01m[K/home/prhayogo/ros2_ws/src/slam_toolbox/src/slam_toolbox_common.cpp:502:79:[m[K   required from here
+[13.465s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::LaserScan_<std::allocator<void> > >::Subscriber(rclcpp_lifecycle::LifecycleNode*, std::__cxx11::basic_string<char>&, rclcpp::SensorDataQoS)[m[K’
+[13.465s]  1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[13.465s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.465s] In file included from [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.hpp:32[m[K,
+[13.465s]                  from [01m[K/home/prhayogo/ros2_ws/src/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp:39[m[K,
+[13.465s]                  from [01m[K/home/prhayogo/ros2_ws/src/slam_toolbox/src/slam_toolbox_common.cpp:23[m[K:
+[13.465s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:224:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::[01;32m[KSubscriber[m[K() [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node][m[K[m[K’
+[13.465s]   224 |   [01;36m[KSubscriber[m[K() = default;
+[13.465s]       |   [01;36m[K^~~~~~~~~~[m[K
+[13.466s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:224:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[13.466s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:212:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::[01;32m[KSubscriber[m[K(NodeType*, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K[m[K’
+[13.466s]   212 |   [01;36m[KSubscriber[m[K(
+[13.466s]       |   [01;36m[K^~~~~~~~~~[m[K
+[13.466s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:212:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[13.466s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::[01;32m[KSubscriber[m[K(NodePtr, const std::string&, rmw_qos_profile_t, rclcpp::SubscriptionOptions) [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K[m[K’
+[13.466s]   203 |   [01;36m[KSubscriber[m[K(
+[13.466s]       |   [01;36m[K^~~~~~~~~~[m[K
+[13.466s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:203:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[13.466s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:188:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::[01;32m[KSubscriber[m[K(NodeType*, const std::string&, rmw_qos_profile_t) [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+[13.466s]   188 |   [01;36m[KSubscriber[m[K(NodeType * node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+[13.466s]       |   [01;36m[K^~~~~~~~~~[m[K
+[13.466s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:188:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp_lifecycle::LifecycleNode*[m[K’ to ‘[01m[Krclcpp::Node*[m[K’
+[13.466s]   188 |   Subscriber([01;36m[KNodeType * node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+[13.466s]       |              [01;36m[K~~~~~~~~~~~^~~~[m[K
+[13.466s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:183:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Subscriber<M, NodeType>::[01;32m[KSubscriber[m[K(NodePtr, const std::string&, rmw_qos_profile_t) [35m[K[with M = sensor_msgs::msg::LaserScan_<std::allocator<void> >; NodeType = rclcpp::Node; NodePtr = std::shared_ptr<rclcpp::Node>; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s][m[K[m[K’
+[13.467s]   183 |   [01;36m[KSubscriber[m[K(NodePtr node, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+[13.467s]       |   [01;36m[K^~~~~~~~~~[m[K
+[13.467s] [01m[K/opt/ros/jazzy/include/message_filters/message_filters/subscriber.h:183:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp_lifecycle::LifecycleNode*[m[K’ to ‘[01m[Kmessage_filters::Subscriber<sensor_msgs::msg::LaserScan_<std::allocator<void> > >::NodePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[13.467s]   183 |   Subscriber([01;36m[KNodePtr node[m[K, const std::string& topic, const rmw_qos_profile_t qos = rmw_qos_profile_default)
+[13.467s]       |              [01;36m[K~~~~~~~~^~~~[m[K
+[20.176s] gmake[2]: *** [CMakeFiles/toolbox_common.dir/build.make:76: CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o] Error 1
+[20.177s] gmake[1]: *** [CMakeFiles/Makefile2:750: CMakeFiles/toolbox_common.dir/all] Error 2
+[20.177s] gmake: *** [Makefile:146: all] Error 2
+[20.181s] Invoked command in '/home/prhayogo/ros2_ws/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/prhayogo/ros2_ws/build/slam_toolbox -- -j16 -l16

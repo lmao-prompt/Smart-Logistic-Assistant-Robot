@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from slam_toolbox/msg/PoseGraph.msg
+// generated code does not contain a copyright notice
+
+#include "slam_toolbox/msg/GraphEdge.idl"
+#include "slam_toolbox/msg/GraphNode.idl"
+#include "std_msgs/msg/Header.idl"
+
+module slam_toolbox {
+  module msg {
+    struct PoseGraph {
+      std_msgs::msg::Header header;
+
+      sequence<slam_toolbox::msg::GraphNode> nodes;
+
+      sequence<slam_toolbox::msg::GraphEdge> edges;
+    };
+  };
+};

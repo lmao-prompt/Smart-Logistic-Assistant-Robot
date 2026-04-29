@@ -1,0 +1,16 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/Pause.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/Reset.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/ClearQueue.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/ToggleInteractive.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/Clear.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/SaveMap.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/LoopClosure.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/MergeMaps.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/AddSubmap.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/DeserializePoseGraph.srv",
+    "/home/prhayogo/ros2_ws/src/slam_toolbox:srv/SerializePoseGraph.srv"
+  ]
+}

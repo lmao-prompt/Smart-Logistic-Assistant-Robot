@@ -1,0 +1,28 @@
+[  1%] Built target slam_toolbox__rosidl_generator_type_description
+[  1%] Built target slam_toolbox__rs
+[  1%] Built target ament_cmake_python_copy_slam_toolbox
+[  1%] Built target slam_toolbox__cpp
+[  3%] Built target kartoSlamToolbox
+[ 26%] Built target slam_toolbox__rosidl_generator_c
+[ 34%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[ 42%] Built target slam_toolbox__rosidl_typesupport_c
+[ 57%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[ 58%] Built target slam_toolbox__rosidl_typesupport_cpp
+[ 66%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[ 74%] Built target slam_toolbox
+[ 74%] Built target slam_toolbox__py
+[ 75%] Built target SlamToolboxPlugin
+[ 76%] Built target ceres_solver_plugin
+[ 83%] Built target slam_toolbox__rosidl_generator_py
+[ 83%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o[0m
+[ 84%] Built target slam_toolbox_s__rosidl_typesupport_introspection_c
+[ 85%] Built target slam_toolbox_s__rosidl_typesupport_fastrtps_c
+[ 86%] Built target slam_toolbox_s__rosidl_typesupport_c
+running egg_info
+writing slam_toolbox.egg-info/PKG-INFO
+writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+writing top-level names to slam_toolbox.egg-info/top_level.txt
+reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[ 86%] Built target ament_cmake_python_build_slam_toolbox_egg

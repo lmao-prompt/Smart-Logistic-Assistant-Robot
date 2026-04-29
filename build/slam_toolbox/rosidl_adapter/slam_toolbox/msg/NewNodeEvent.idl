@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from slam_toolbox/msg/NewNodeEvent.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "slam_toolbox/msg/GraphEdge.idl"
+
+module slam_toolbox {
+  module msg {
+    struct NewNodeEvent {
+      int32 new_node_id;
+
+      builtin_interfaces::msg::Time stamp;
+
+      geometry_msgs::msg::Pose pose;
+
+      slam_toolbox::msg::GraphEdge edge;
+    };
+  };
+};
